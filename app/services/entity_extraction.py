@@ -1,6 +1,6 @@
 import re
 from typing import List, Dict, Any, Optional
-from app.models.schemas import Entity
+from app.models.entity import Entity
 
 try:
     import spacy

@@ -1,5 +1,6 @@
 from fastapi import APIRouter, HTTPException
-from app.models.schemas import TextInput, LanguageDetectionResponse
+from app.models.text_input import TextInput
+from app.models.language_detection import LanguageDetectionResponse
 from app.services.language_detection import LanguageDetector
 from app.services.nlp_loader import load_spacy_models
 
