@@ -176,3 +176,6 @@ The project follows PEP 8 style guidelines.
 ## License
 
 This project is licensed under the MIT License.
+
+source venv/bin/activate
+uvicorn app.main:api --reload

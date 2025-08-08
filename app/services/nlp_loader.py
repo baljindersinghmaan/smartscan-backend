@@ -18,7 +18,7 @@ def load_spacy_models() -> Tuple[Optional[Language], Optional[Language]]:
     nlp_hi = None
     
     if not SPACY_AVAILABLE:
-        print("⚠️  SpaCy not available. Using regex-based extraction only.")
+
         return nlp_en, nlp_hi
     
     # Try to load English model
